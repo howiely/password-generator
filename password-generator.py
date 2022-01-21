@@ -3,7 +3,7 @@
 import random
 # import random module from python
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!-?,@$_'
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!-?#@$_'
 # characters used to generate passwords
 
 pw_amount = input("Enter the amount of passwords you'd like to generate: ")
