@@ -1,3 +1,5 @@
+# password-generator.py
+
 import random
 # import random module from python
 
@@ -19,3 +21,6 @@ for p in range(pw_amount):
     for c in range(pw_length):
         password += random.choice(chars)
     print(password)
+
+# exit program after generation is complete
+input("Password generation complete. Copy your passwords, then press ENTER/RETURN to exit the program.")
